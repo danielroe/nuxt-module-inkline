@@ -34,6 +34,7 @@ export const module: NuxtModule<PluginConfig & ModuleConfig> = defineNuxtModule(
 
         addPluginTemplate({
             src: resolve(runtimeDir, 'plugin.ejs'),
+            filename: 'inkline-plugin.mjs',
             options: moduleOptions
         });
 
